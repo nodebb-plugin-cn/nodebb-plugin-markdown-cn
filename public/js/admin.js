@@ -34,7 +34,7 @@ define('admin/plugins/markdown', ['settings'], function(Settings) {
 					type: 'success',
 					alert_id: 'markdown-saved',
 					title: 'Reload Required',
-					message: 'Please reload your NodeBB to have your changes take effect',
+					message: '请重新加载应用使更改生效',
 					clickfn: function() {
 						socket.emit('admin.reload');
 					}
@@ -46,7 +46,7 @@ define('admin/plugins/markdown', ['settings'], function(Settings) {
 		$('#html').on('change', function() {
 			var inputEl = $(this);
 			if (inputEl.prop('checked')) {
-				bootbox.confirm('Are you sure you wish to disable sanitisation of HTML? <strong>Doing so compromises your forum&apos;s client-side security, and allows malicious users to execute arbitrary javascript on other users&apos; browsers.</strong>', function(result) {
+				bootbox.confirm('您确定要禁用 HTML? <strong>Doing so compromises your forum&apos;s client-side security, and allows malicious users to execute arbitrary javascript on other users&apos; browsers.</strong>', function(result) {
 					if (!result) {
 						inputEl.prop('checked', false);
 					}
