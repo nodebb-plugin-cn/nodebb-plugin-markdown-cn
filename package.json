@@ -1,0 +1,30 @@
+{
+  "name": "nodebb-plugin-markdown",
+  "version": "4.0.16",
+  "description": "A Markdown parser for NodeBB",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodebb-plugin-cn/nodebb-plugin-markdown-cn.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "markdown"
+  ],
+  "author": {
+    "name": "zan",
+    "email": "root@zanjs.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodebb-plugin-cn/nodebb-plugin-markdown-cn/issues"
+  },
+  "dependencies": {
+    "markdown-it": "^4.1.0"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+
+}
