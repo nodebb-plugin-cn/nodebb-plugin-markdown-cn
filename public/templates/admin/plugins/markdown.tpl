@@ -2,7 +2,7 @@
 	<div class="col-lg-9">
 		<form class="form markdown-settings">
 			<div class="panel panel-default">
-				<div class="panel-heading">Markdown</div>
+				<div class="panel-heading" style="text-transform: capitalize">Markdown</div>
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-6">
@@ -86,7 +86,7 @@
 									允许HTML
 								</label>
 								<div class="alert alert-warning">
-									<strong><i class="icon-warning-sign"></i> Careful!</strong>
+									<strong><i class="icon-warning-sign"></i> 小心!</strong>
 									<p>
 										自动HTML消毒是确保一个重要组成部分你的用户不要运行任意JavaScript或改变的部分要改变不意味着该网页。
                                         如果这个选项被选中，当心后果！
@@ -101,7 +101,7 @@
 	</div>
 	<div class="col-lg-3">
 		<div class="panel panel-default">
-			<div class="panel-heading">Markdown 控制面板</div>
+			<div class="panel-heading" style="text-transform: capitalize" >Markdown 控制面板</div>
 			<div class="panel-body">
 				<button class="btn btn-primary" id="save">保存设置</button>
 			</div>
