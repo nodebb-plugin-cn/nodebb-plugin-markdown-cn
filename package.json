@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-markdown-cn",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A Markdown parser for NodeBB",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,13 @@
   },
   "nbbpm": {
     "compatibility": "^1.0.0"
-  }
-
+  },
+  "readme": "# NodeBB Markdown 解析器\n\n这NodeBB插件是一个解析器，它允许用户写的帖子使用 [Markdown](https://daringfireball.net/projects/markdown/) 语法.\n\n要定制解析器选项，请参阅“插件”页面管理面板。\n\n## 安装\n\nnpm install nodebb-plugin-markdown-cn\n",
+  "readmeFilename": "README.md",
+  "gitHead": "82223d0a5b140a77b1f7f8558aecff788b612af8",
+  "homepage": "https://github.com/nodebb-plugin-cn/nodebb-plugin-markdown-cn#readme",
+  "_id": "nodebb-plugin-markdown-cn@0.0.3",
+  "scripts": {},
+  "_shasum": "1f6ccd5be02993f20bf044fc8c58ef3af3ab9cdd",
+  "_from": "nodebb-plugin-markdown-cn@0.0.3"
 }
