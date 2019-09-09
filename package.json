@@ -21,7 +21,7 @@
     "url": "https://github.com/nodebb-plugin-cn/nodebb-plugin-markdown-cn/issues"
   },
   "dependencies": {
-    "markdown-it": "^4.1.0"
+    "markdown-it": "^9.1.0"
   },
   "nbbpm": {
     "compatibility": "^1.0.0"
